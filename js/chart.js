@@ -4,8 +4,8 @@ const timeparser = d3.timeParse("%Y-%m-%d");
 const initialize = (data) => {
     svg = d3.select('main')
         .append('svg')
-        .attr('width', 1600)
-        .attr('height', 750)
+        .attr('width', 1200)
+        .attr('height', 600)
         .append('g')
         .attr('transform', 'translate(100, 10)');
 
@@ -13,16 +13,16 @@ const initialize = (data) => {
         .domain([
             d3.min(data, (d) => timeparser(d.date)),
             d3.max(data, (d) => timeparser(d.date))])
-        .range([0, 1200]);
+        .range([0, 1000]);
 
     yScale = d3.scaleLinear()
         .domain([
             0,
             d3.max(data, (d) => parseInt(d.value, 10))])
-        .range([700, 0]);
+        .range([500, 0]);
 
     svg.append('g')
-        .attr('transform', 'translate(0, 700)')
+        .attr('transform', 'translate(0, 500)')
         .call(
             d3.axisBottom(xScale)
                 .tickFormat(d3.timeFormat('%Y%m%d'))
