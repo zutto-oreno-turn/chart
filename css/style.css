@@ -1,0 +1,8 @@
+.tip {
+    position: absolute;
+    display: none;
+    width: 400px;
+    background-color: #555555;
+    color: #ffffff;
+    text-align: center;
+}
