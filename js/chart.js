@@ -18,7 +18,7 @@ const initialize = (data) => {
     yScale = d3.scaleLinear()
         .domain([
             0,
-            d3.max(data, (d) => parseInt(d.value, 10))])
+            d3.max(data, (d) => parseFloat(d.value))])
         .range([500, 0]);
 
     svg.append('g')
