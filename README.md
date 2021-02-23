@@ -1,12 +1,6 @@
-# chart
+# Chart
 
-- This is a sample of multi-line graph using d3.js.
-- Draw multiple lines for each key.
+- multi-line chart.
 
-example:
-https://www.zutto-oreno-turn.com/chart/index.html
-
-data:
-https://github.com/zutto-oreno-turn/chart/blob/main/data/test.tsv
-
-Thanks,
+### Example:
+- https://www.zutto-oreno-turn.com/chart/index.html
