@@ -4,7 +4,7 @@
 - Draw multiple lines for each key.
 
 example:
-https://www.zutto-oreno-turn.com/chart/chart.html
+https://www.zutto-oreno-turn.com/chart/index.html
 
 data:
 https://github.com/zutto-oreno-turn/chart/blob/main/data/test.tsv
